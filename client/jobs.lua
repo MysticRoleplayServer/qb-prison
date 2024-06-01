@@ -15,7 +15,7 @@ function CreateJobBlip(noItem) -- Used globally
     currentBlip = AddBlipForCoord(coords.x, coords.y, coords.z)
     SetBlipSprite(currentBlip, 402)
     SetBlipDisplay(currentBlip, 4)
-    SetBlipScale(currentBlip, 0.8)
+    SetBlipScale(currentBlip, 0.7)
     SetBlipAsShortRange(currentBlip, true)
     SetBlipColour(currentBlip, 1)
     BeginTextCommandSetBlipName('STRING')
