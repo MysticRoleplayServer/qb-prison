@@ -27,7 +27,7 @@ Config.Uniforms = {
 }
 
 Config.Locations = {
-    freedom = vector4(1740.88, 2476.57, 44.85, 299.49),
+    freedom = vector4(1836.27, 2584.53, 44.89, 46.03),
     outside = vector4(1848.13, 2586.05, 44.67, 269.5),
     yard = vector4(1765.67, 2565.91, 44.56, 1.5),
     middle = vector4(1693.33, 2569.51, 44.55, 123.5),
