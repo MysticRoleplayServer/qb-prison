@@ -240,7 +240,8 @@ RegisterNetEvent('prison:client:Leave', function()
 		while not IsScreenFadedOut() do
 			Wait(10)
 		end
-		TriggerServerEvent('qb-clothes:loadPlayerSkin')
+		-- TriggerServerEvent('qb-clothes:loadPlayerSkin')
+		TriggerServerEvent('prison:server:ReloadPlayerSkin')
 		SetEntityCoords(PlayerPedId(), Config.Locations['outside'].x, Config.Locations['outside'].y, Config.Locations['outside'].z, false, false, false, false)
 		SetEntityHeading(PlayerPedId(), Config.Locations['outside'].w)
 		Wait(500)
@@ -270,7 +271,8 @@ RegisterNetEvent('prison:client:UnjailPerson', function()
 		while not IsScreenFadedOut() do
 			Wait(10)
 		end
-		TriggerServerEvent('qb-clothes:loadPlayerSkin')
+		-- TriggerServerEvent('qb-clothes:loadPlayerSkin')
+		TriggerServerEvent('prison:server:ReloadPlayerSkin')
 		SetEntityCoords(PlayerPedId(), Config.Locations['outside'].x, Config.Locations['outside'].y, Config.Locations['outside'].z, false, false, false, false)
 		SetEntityHeading(PlayerPedId(), Config.Locations['outside'].w)
 		Wait(500)
